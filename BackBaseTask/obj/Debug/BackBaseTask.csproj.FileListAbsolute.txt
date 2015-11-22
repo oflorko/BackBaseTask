@@ -1,0 +1,11 @@
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\Default.srprofile
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\BackBaseTask.dll.config
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\BackBaseTask.dll
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\BackBaseTask.pdb
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\SpecRun.SpecFlowPlugin.dll
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\TechTalk.SpecFlow.dll
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\TechTalk.SpecRun.dll
+D:\Projects\BackBaseTask\BackBaseTask\obj\Debug\BackBaseTask.dll
+D:\Projects\BackBaseTask\BackBaseTask\obj\Debug\BackBaseTask.pdb
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\RestSharp.dll
+D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\RestSharp.xml

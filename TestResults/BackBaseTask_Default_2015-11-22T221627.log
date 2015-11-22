@@ -1,0 +1,715 @@
+﻿Appdomain Disposed
+Test Suite Dump
+#0: BackBaseTask/Default - 
+#1: Default - 
+#2: BackBaseTask - 
+#3: Add new computer - 
+#34: SearchForComputer - 
+#4: Add new computer with all correct fields - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer+with+all+correct+fields
+#5: Add a new computer positive flow, 0_Empty_Introduced_Date - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+0_Empty_Introduced_Date
+#6: Add a new computer positive flow, 1_Empty_Discontinued_Date - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+1_Empty_Discontinued_Date
+#7: Add a new computer positive flow, 2_Empty_Company - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+2_Empty_Company
+#8: Add a new computer positive flow, 3_Empty_Dates - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+3_Empty_Dates
+#9: Add a new computer positive flow, 4_Empty_DiscontinuedDate_And_Company - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+4_Empty_DiscontinuedDate_And_Company
+#10: Add a new computer positive flow, 5_Empty_IntroducedDate_And_Company - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+5_Empty_IntroducedDate_And_Company
+#11: Add a new computer positive flow, 6_Only_Name - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer+positive+flow%2c+6_Only_Name
+#12: Add a new computer, dates testing, 0_Normal_Dates - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+0_Normal_Dates
+#13: Add a new computer, dates testing, 1_Zero_Year - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+1_Zero_Year
+#14: Add a new computer, dates testing, 2_Intro_DateFormat_dd-MM-yyyy - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+2_Intro_DateFormat_dd-MM-yyyy
+#15: Add a new computer, dates testing, 3_Disc_DateFormat_dd-MM-yyyy - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+3_Disc_DateFormat_dd-MM-yyyy
+#16: Add a new computer, dates testing, 4_Intro_Text_Month - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+4_Intro_Text_Month
+#17: Add a new computer, dates testing, 5_Disc_Intro_Text_Month - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+5_Disc_Intro_Text_Month
+#18: Add a new computer, dates testing, 6_Intro_Negative_Year - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+6_Intro_Negative_Year
+#19: Add a new computer, dates testing, 7_Disc_Negative_Year - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+7_Disc_Negative_Year
+#20: Add a new computer, dates testing, 8_Intro_Wrong_Delimiter - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+8_Intro_Wrong_Delimiter
+#21: Add a new computer, dates testing, 9_Disc_Wrong_Delimiter - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+9_Disc_Wrong_Delimiter
+#22: Add a new computer, dates testing, 10_Intro_Text_Date - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+10_Intro_Text_Date
+#23: Add a new computer, dates testing, 11_Intro_Text_Date - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+11_Intro_Text_Date
+#24: Add a new computer, dates testing, 12_Intro_DateFormat_dd-MM-yyyy - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+12_Intro_DateFormat_dd-MM-yyyy
+#25: Add a new computer, dates testing, 13_Disc_DateFormat_dd-MM-yyyy - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+13_Disc_DateFormat_dd-MM-yyyy
+#26: Add a new computer, dates testing, 14_Intro_Space_Delimiter - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+14_Intro_Space_Delimiter
+#27: Add a new computer, dates testing, 15_Disc_Space_Delimiter - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+15_Disc_Space_Delimiter
+#28: Add a new computer, dates testing, 16_Intro_30_Feb - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+16_Intro_30_Feb
+#29: Add a new computer, dates testing, 16_Disc_30_Feb - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+a+new+computer%2c+dates+testing%2c+16_Disc_30_Feb
+#30: Add new computer, company field testing, 0_Company_0 - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer%2c+company+field+testing%2c+0_Company_0
+#31: Add new computer, company field testing, 1_Negative_Company - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer%2c+company+field+testing%2c+1_Negative_Company
+#32: Add new computer, company field testing, 2_Company_Code_Not_in_List - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer%2c+company+field+testing%2c+2_Company_Code_Not_in_List
+#33: Add new computer, company field testing, 3_Company_Code_is_Text - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer%2c+company+field+testing%2c+3_Company_Code_is_Text
+#35: Search for the computer with unique name - TestAssembly:BackBaseTask/Feature:SearchForComputer/Scenario:Search+for+the+computer+with+unique+name
+End: Test Suite Dump
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for BackBaseTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Olena\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I set the computer name to "Specflow_NewComputer"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_NewComputer") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (15.0s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Succeeded within 15.0918157 seconds
+Test #5/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyIntroduced"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyInt...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.5s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #6 for thread #0
+Scheduler: using #6 for thread #0
+Test #6 is scheduled for thread #0
+Test #5 is finished on thread #0 as Succeeded within 0.4843965 seconds
+Test #6/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyDiscontinued"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyDis...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "2"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("2") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #6 is finished on thread #0 as Succeeded within 0.3593996 seconds
+Test #7/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyCompany"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyCom...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to ""
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #7 is finished on thread #0 as Succeeded within 0.3749696 seconds
+Test #8/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyDates"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyDates") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "3"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("3") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #9 for thread #0
+Scheduler: using #9 for thread #0
+Test #9 is scheduled for thread #0
+Test #8 is finished on thread #0 as Succeeded within 0.3594128 seconds
+Test #9/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyDiscontCompany"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyDis...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to ""
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #10 for thread #0
+Scheduler: using #10 for thread #0
+Test #10 is scheduled for thread #0
+Test #9 is finished on thread #0 as Succeeded within 0.3749713 seconds
+Test #10/0 is started on thread #0
+B:Given I set the computer name to "Specflow_EmptyIntrodCompany"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_EmptyInt...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to ""
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #11 for thread #0
+Scheduler: using #11 for thread #0
+Test #11 is scheduled for thread #0
+Test #10 is finished on thread #0 as Succeeded within 0.4062507 seconds
+Test #11/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Only_Name"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Only_Name") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to ""
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #12 for thread #0
+Scheduler: using #12 for thread #0
+Test #12 is scheduled for thread #0
+Test #11 is finished on thread #0 as Succeeded within 0.3750359 seconds
+Test #12/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Normal_Dates"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Normal_D...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #13 for thread #0
+Scheduler: using #13 for thread #0
+Test #13 is scheduled for thread #0
+Test #12 is finished on thread #0 as Succeeded within 0.3593786 seconds
+Test #13/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Zero_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Zero_Year") (0.0s)
+B:And I set the Introduced date to "0-1-1"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("0-1-1") (0.0s)
+B:And I set the Discontinued date to "9999-12-12"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("9999-12-12") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #14 for thread #0
+Scheduler: using #14 for thread #0
+Test #14 is scheduled for thread #0
+Test #13 is finished on thread #0 as Succeeded within 0.3706011 seconds
+Test #14/0 is started on thread #0
+B:Given I set the computer name to "Specflow_DateFormat_dd-MM-yyyy"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_DateForm...") (0.0s)
+B:And I set the Introduced date to "31-12-2000"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("31-12-2000") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #15 for thread #0
+Scheduler: using #15 for thread #0
+Test #15 is scheduled for thread #0
+Test #14 is finished on thread #0 as Succeeded within 0.3125007 seconds
+Test #15/0 is started on thread #0
+B:Given I set the computer name to "Specflow_DateFormat_dd-MM-yyyy"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_DateForm...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "31-12-2000"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("31-12-2000") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.2s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #16 for thread #0
+Scheduler: using #16 for thread #0
+Test #16 is scheduled for thread #0
+Test #15 is finished on thread #0 as Succeeded within 0.2343767 seconds
+Test #16/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Text_Month"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Text_Month") (0.0s)
+B:And I set the Introduced date to "2015-Nov-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-Nov-18") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #17 for thread #0
+Scheduler: using #17 for thread #0
+Test #17 is scheduled for thread #0
+Test #16 is finished on thread #0 as Succeeded within 0.2655944 seconds
+Test #17/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Intro_Text_Month"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Intro_Te...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2015-Nov-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2015-Nov-18") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #18 for thread #0
+Scheduler: using #18 for thread #0
+Test #18 is scheduled for thread #0
+Test #17 is finished on thread #0 as Succeeded within 0.281238 seconds
+Test #18/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("-1-11-11") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: dequeuing a rescheduled item: 18
+Scheduler: considering #18 for thread #0
+Scheduler: using #18 for thread #0
+Test #18 is scheduled for thread #0
+Test #18 is finished on thread #0 as Failed within 0.3437694 seconds
+Test #18/1 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("-1-11-11") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: dequeuing a rescheduled item: 18
+Scheduler: considering #18 for thread #0
+Scheduler: using #18 for thread #0
+Test #18 is scheduled for thread #0
+Test #18 is finished on thread #0 as Failed within 0.3729707 seconds
+Test #18/2 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("-1-11-11") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: considering #19 for thread #0
+Scheduler: using #19 for thread #0
+Test #19 is scheduled for thread #0
+Test #18 is finished on thread #0 as Failed within 0.4062917 seconds
+Test #19/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("-1-11-11") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: dequeuing a rescheduled item: 19
+Scheduler: considering #19 for thread #0
+Scheduler: using #19 for thread #0
+Test #19 is scheduled for thread #0
+Test #19 is finished on thread #0 as Failed within 0.3281262 seconds
+Test #19/1 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("-1-11-11") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: dequeuing a rescheduled item: 19
+Scheduler: considering #19 for thread #0
+Scheduler: using #19 for thread #0
+Test #19 is scheduled for thread #0
+Test #19 is finished on thread #0 as Failed within 0.375003 seconds
+Test #19/2 is started on thread #0
+B:Given I set the computer name to "Specflow_Negative_Year"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Negative...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "-1-11-11"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("-1-11-11") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:error: Assert.AreEqual failed. Expected:<BadRequest>. Actual:<OK>. The status code was OK, but it should be BadRequest
+Scheduler: considering #20 for thread #0
+Scheduler: using #20 for thread #0
+Test #20 is scheduled for thread #0
+Test #19 is finished on thread #0 as Failed within 0.4375035 seconds
+Test #20/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Wrong_Delimiter"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Wrong_De...") (0.0s)
+B:And I set the Introduced date to "2000/1/1"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2000/1/1") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #21 for thread #0
+Scheduler: using #21 for thread #0
+Test #21 is scheduled for thread #0
+Test #20 is finished on thread #0 as Succeeded within 0.2812529 seconds
+Test #21/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Wrong_Delimiter"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Wrong_De...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2000/1/1"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2000/1/1") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #22 for thread #0
+Scheduler: using #22 for thread #0
+Test #22 is scheduled for thread #0
+Test #21 is finished on thread #0 as Succeeded within 0.3124528 seconds
+Test #22/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Text_Date"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Text_Date") (0.0s)
+B:And I set the Introduced date to "text"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("text") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #23 for thread #0
+Scheduler: using #23 for thread #0
+Test #23 is scheduled for thread #0
+Test #22 is finished on thread #0 as Succeeded within 0.2969316 seconds
+Test #23/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Text_Date"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Text_Date") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "text"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("text") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #24 for thread #0
+Scheduler: using #24 for thread #0
+Test #24 is scheduled for thread #0
+Test #23 is finished on thread #0 as Succeeded within 0.2982042 seconds
+Test #24/0 is started on thread #0
+B:Given I set the computer name to "Specflow_DateFormat_MM-dd-yyyy"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_DateForm...") (0.0s)
+B:And I set the Introduced date to "12-31-2000"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("12-31-2000") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #25 for thread #0
+Scheduler: using #25 for thread #0
+Test #25 is scheduled for thread #0
+Test #24 is finished on thread #0 as Succeeded within 0.2968524 seconds
+Test #25/0 is started on thread #0
+B:Given I set the computer name to "Specflow_DateFormat_MM-dd-yyyy"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_DateForm...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "12-31-2000"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("12-31-2000") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #26 for thread #0
+Scheduler: using #26 for thread #0
+Test #26 is scheduled for thread #0
+Test #25 is finished on thread #0 as Succeeded within 0.2812718 seconds
+Test #26/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Space_Delimiter"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Space_De...") (0.0s)
+B:And I set the Introduced date to "2000 1 1"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2000 1 1") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #27 for thread #0
+Scheduler: using #27 for thread #0
+Test #27 is scheduled for thread #0
+Test #26 is finished on thread #0 as Succeeded within 0.3125054 seconds
+Test #27/0 is started on thread #0
+B:Given I set the computer name to "Specflow_Space_Delimiter"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_Space_De...") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2000 1 1"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2000 1 1") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #28 for thread #0
+Scheduler: using #28 for thread #0
+Test #28 is scheduled for thread #0
+Test #27 is finished on thread #0 as Succeeded within 0.2968507 seconds
+Test #28/0 is started on thread #0
+B:Given I set the computer name to "Specflow_30_Feb"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_30_Feb") (0.0s)
+B:And I set the Introduced date to "2012-2-30"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2012-2-30") (0.0s)
+B:And I set the Discontinued date to ""
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #29 for thread #0
+Scheduler: using #29 for thread #0
+Test #29 is scheduled for thread #0
+Test #28 is finished on thread #0 as Succeeded within 0.2969046 seconds
+Test #29/0 is started on thread #0
+B:Given I set the computer name to "Specflow_30_Feb"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_30_Feb") (0.0s)
+B:And I set the Introduced date to ""
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("") (0.0s)
+B:And I set the Discontinued date to "2012-2-30"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2012-2-30") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.3s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #30 for thread #0
+Scheduler: using #30 for thread #0
+Test #30 is scheduled for thread #0
+Test #29 is finished on thread #0 as Succeeded within 0.2968781 seconds
+Test #30/0 is started on thread #0
+B:Given I set the computer name to "Specflow_CompanyTesting"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_CompanyT...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "0"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("0") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #31 for thread #0
+Scheduler: using #31 for thread #0
+Test #31 is scheduled for thread #0
+Test #30 is finished on thread #0 as Succeeded within 0.3999287 seconds
+Test #31/0 is started on thread #0
+B:Given I set the computer name to "Specflow_CompanyTesting"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_CompanyT...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "-1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("-1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #32 for thread #0
+Scheduler: using #32 for thread #0
+Test #32 is scheduled for thread #0
+Test #31 is finished on thread #0 as Succeeded within 0.4257939 seconds
+Test #32/0 is started on thread #0
+B:Given I set the computer name to "Specflow_CompanyTesting"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_CompanyT...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "9999999"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("9999999") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Scheduler: considering #33 for thread #0
+Scheduler: using #33 for thread #0
+Test #33 is scheduled for thread #0
+Test #32 is finished on thread #0 as Succeeded within 0.3593808 seconds
+Test #33/0 is started on thread #0
+B:Given I set the computer name to "Specflow_CompanyTesting"
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("Specflow_CompanyT...") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "text"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("text") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.2s)
+B:Then response message should contain ""
+T:done: BaseSteps.ThenResponseMessageShouldContain("") (0.0s)
+B:And response code should be "400"
+T:done: BaseSteps.ThenResponseCodeShouldBe("400") (0.0s)
+Scheduler: considering #35 for thread #0
+Scheduler: using #35 for thread #0
+Test #35 is scheduled for thread #0
+Test #33 is finished on thread #0 as Succeeded within 0.2655919 seconds
+Test #35/0 is started on thread #0
+B:When I create the computer with unique name
+T:done: SearchForComputerSteps.GivenISetTheComputerNameToUnique() (0.4s)
+B:Then response message should contain "Done!"
+T:done: BaseSteps.ThenResponseMessageShouldContain("Done!") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+B:When I search for the computer
+T:done: SearchForComputerSteps.WhenISearchForTheComputer() (0.1s)
+B:Then response message should contain "One computer found"
+T:done: BaseSteps.ThenResponseMessageShouldContain("One computer found") (0.0s)
+B:And response code should be "OK"
+T:done: BaseSteps.ThenResponseCodeShouldBe("OK") (0.0s)
+Test #35 is finished on thread #0 as Succeeded within 0.5312881 seconds
+Appdomain Disposed
+Total: 31 (test executions: 35)
+Succeeded: 29
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

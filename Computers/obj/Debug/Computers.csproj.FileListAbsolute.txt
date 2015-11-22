@@ -1,0 +1,5 @@
+D:\Projects\BackBaseTask\Computers\bin\Debug\Computers.dll
+D:\Projects\BackBaseTask\Computers\bin\Debug\Computers.pdb
+D:\Projects\BackBaseTask\Computers\obj\Debug\Computers.dll
+D:\Projects\BackBaseTask\Computers\obj\Debug\Computers.pdb
+D:\Projects\BackBaseTask\Computers\obj\Debug\Computers.csprojResolveAssemblyReference.cache

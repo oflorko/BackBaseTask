@@ -1,0 +1,59 @@
+Positive Flows - Add new computer:
+Pre-condition: 
+1. Page http://computer-database.herokuapp.com/computers is loaded
+2. Press 'Add a computer' button
+Test-case 1: Fill in all required fields with valid data
+Test-case 2: Fill in all fields except Introduced
+Test-case 3: Fill in all fields except Discontinued
+Test-case 4: Fill in all fields except Company
+Test-case 5: Fill in all fields except Dates
+Test-case 6: Fill in all fields except Introduced and Company
+Test-case 7: Fill in all fields except Discontinued and Company
+Press 'Create this computer button.
+Expected result: New computer was added with relevant data in columns, there is a message 'Done!'
+
+Negative flow - Add new computer:
+Pre-condition: 
+1. Page http://computer-database.herokuapp.com/computers is loaded
+2. Press 'Add a computer' button
+Test-case 1: Leave Computer name field empty
+Press 'Create this computer button.
+Expected result: Bad request, new computer was not created.
+
+Dates testing - Add new computer:
+Pre-condition: 
+1. Page http://computer-database.herokuapp.com/computers is loaded
+2. Press 'Add a computer' button
+Test-case 1: Input normal dates as Introduced and Discontinued (2015-11-18, 2016-11-18)
+Test-case 2: Input zero as year in Introduced (0-1-1) and Discontinued as 9999-12-12
+Expected result: New computer was added with relevant data in columns, there is a message 'Done!'
+Test-case 3: Set Introduced with wrong date format dd-MM-yyyy (31-12-2000)
+Test-case 4: Set Introduced with month in text format (2015-Nov-18)
+Test-case 5: Set Introduced with negative year (-1-11-11)
+Test-case 6: Set Introduced with wrong delimiter (2000/1/1)
+Test-case 7: Set Introduced as 'text'
+Test-case 8: Set Introduced with wrong date format dd-MM-yyyy (12-31-2000 )
+Test-case 9: Set Introduced with space as delimiter (2000 1 1)
+Test-case 10: Set Introduced as Feb 30 (2012-2-30)
+Test-case 11: Do test cases 3-10 for Discontinued field
+Press 'Create this computer button.
+Expected result: Bad Request, new computer was not created.
+
+Company field testing:
+Pre-condition: 
+0. Use tool for HTTP requests because Company is posted as int
+1. Page http://computer-database.herokuapp.com/computers is loaded
+2. Press 'Add a computer' button
+Test-case 1: Set Company as 0
+Test-case 2: Set Company as -1
+Test-case 3: Set Company as 9999999
+Press 'Create this computer button.
+Expected result: New computer was added with relevant data in columns, there is a message 'Done!'
+Test-case 4: Set Company as 'text'
+Expected result: Bad Request, new computer was not created.
+
+Search testing:
+1. Page http://computer-database.herokuapp.com/computers is loaded
+2. Create a computer with unique name (sdjhfpshdf)
+Test-case 1: Search for unique name (sdjhfpshdf)
+Expected result: One computer found. Result is listed on Screen

@@ -9,3 +9,4 @@ D:\Projects\BackBaseTask\BackBaseTask\obj\Debug\BackBaseTask.dll
 D:\Projects\BackBaseTask\BackBaseTask\obj\Debug\BackBaseTask.pdb
 D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\RestSharp.dll
 D:\Projects\BackBaseTask\BackBaseTask\bin\Debug\RestSharp.xml
+D:\Projects\BackBaseTask\BackBaseTask\obj\Debug\BackBaseTask.csprojResolveAssemblyReference.cache

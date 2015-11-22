@@ -2,14 +2,13 @@
 
 @AddANewComputer
 #Just example of a simple test case to add a new computer with all fields filled in correctly
-Scenario: Add new computer with all correct fields
-	Given I set the computer name to "Specflow_NewComputer" 
+Scenario: Add new computer without name
+	Given I set the computer name to "" 
 	And I set the Introduced date to "2015-11-18"
 	And I set the Discontinued date to "2016-11-18"
 	And I set the Company to "1"
 	When I press Create this computer
-	Then response message should contain "Done!"
-	And response code should be "OK"
+	Then response code should be "BadRequest"
 
 @PositiveCases
 #Test set: Add new computer

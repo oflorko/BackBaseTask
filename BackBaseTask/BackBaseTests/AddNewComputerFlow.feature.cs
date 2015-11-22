@@ -62,16 +62,16 @@ namespace BackBaseTask.BackBaseTests
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Add new computer with all correct fields", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Add new computer without name", new string[] {
                 "AddANewComputer"}, SourceLine=4)]
-        public virtual void AddNewComputerWithAllCorrectFields()
+        public virtual void AddNewComputerWithoutName()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new computer with all correct fields", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new computer without name", new string[] {
                         "AddANewComputer"});
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
- testRunner.Given("I set the computer name to \"Specflow_NewComputer\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I set the computer name to \"\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
  testRunner.And("I set the Introduced date to \"2015-11-18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 8
@@ -81,9 +81,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
  testRunner.When("I press Create this computer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("response message should contain \"Done!\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 12
- testRunner.And("response code should be \"OK\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("response code should be \"BadRequest\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -97,70 +95,70 @@ this.ScenarioSetup(scenarioInfo);
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a new computer positive flow", @__tags);
-#line 18
+#line 17
 this.ScenarioSetup(scenarioInfo);
-#line 19
+#line 18
  testRunner.Given(string.Format("I set the computer name to \"{0}\"", name), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 20
+#line 19
  testRunner.And(string.Format("I set the Introduced date to \"{0}\"", introduced), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 21
+#line 20
  testRunner.And(string.Format("I set the Discontinued date to \"{0}\"", discontinued), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 22
+#line 21
  testRunner.And(string.Format("I set the Company to \"{0}\"", company), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 23
+#line 22
  testRunner.When("I press Create this computer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 24
+#line 23
  testRunner.Then("response message should contain \"Done!\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 25
+#line 24
  testRunner.And("response code should be \"OK\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 0_Empty_Introduced_Date", new string[] {
-                "PositiveCases"}, SourceLine=27)]
+                "PositiveCases"}, SourceLine=26)]
         public virtual void AddANewComputerPositiveFlow_0_Empty_Introduced_Date()
         {
             this.AddANewComputerPositiveFlow("0_Empty_Introduced_Date", "Specflow_EmptyIntroduced", "", "2016-11-18", "1", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 1_Empty_Discontinued_Date", new string[] {
-                "PositiveCases"}, SourceLine=28)]
+                "PositiveCases"}, SourceLine=27)]
         public virtual void AddANewComputerPositiveFlow_1_Empty_Discontinued_Date()
         {
             this.AddANewComputerPositiveFlow("1_Empty_Discontinued_Date", "Specflow_EmptyDiscontinued", "2015-11-18", "", "2", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 2_Empty_Company", new string[] {
-                "PositiveCases"}, SourceLine=29)]
+                "PositiveCases"}, SourceLine=28)]
         public virtual void AddANewComputerPositiveFlow_2_Empty_Company()
         {
             this.AddANewComputerPositiveFlow("2_Empty_Company", "Specflow_EmptyCompany", "2015-11-18", "2016-11-18", "", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 3_Empty_Dates", new string[] {
-                "PositiveCases"}, SourceLine=30)]
+                "PositiveCases"}, SourceLine=29)]
         public virtual void AddANewComputerPositiveFlow_3_Empty_Dates()
         {
             this.AddANewComputerPositiveFlow("3_Empty_Dates", "Specflow_EmptyDates", "", "", "3", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 4_Empty_DiscontinuedDate_And_Company", new string[] {
-                "PositiveCases"}, SourceLine=31)]
+                "PositiveCases"}, SourceLine=30)]
         public virtual void AddANewComputerPositiveFlow_4_Empty_DiscontinuedDate_And_Company()
         {
             this.AddANewComputerPositiveFlow("4_Empty_DiscontinuedDate_And_Company", "Specflow_EmptyDiscontCompany", "2015-11-18", "", "", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 5_Empty_IntroducedDate_And_Company", new string[] {
-                "PositiveCases"}, SourceLine=32)]
+                "PositiveCases"}, SourceLine=31)]
         public virtual void AddANewComputerPositiveFlow_5_Empty_IntroducedDate_And_Company()
         {
             this.AddANewComputerPositiveFlow("5_Empty_IntroducedDate_And_Company", "Specflow_EmptyIntrodCompany", "", "2016-11-18", "", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer positive flow, 6_Only_Name", new string[] {
-                "PositiveCases"}, SourceLine=33)]
+                "PositiveCases"}, SourceLine=32)]
         public virtual void AddANewComputerPositiveFlow_6_Only_Name()
         {
             this.AddANewComputerPositiveFlow("6_Only_Name", "Specflow_Only_Name", "", "", "", ((string[])(null)));
@@ -175,147 +173,147 @@ this.ScenarioSetup(scenarioInfo);
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add a new computer, dates testing", @__tags);
-#line 40
+#line 39
 this.ScenarioSetup(scenarioInfo);
-#line 41
+#line 40
  testRunner.Given(string.Format("I set the computer name to \"{0}\"", name), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 42
+#line 41
  testRunner.And(string.Format("I set the Introduced date to \"{0}\"", introduced), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 43
+#line 42
  testRunner.And(string.Format("I set the Discontinued date to \"{0}\"", discontinued), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 44
+#line 43
  testRunner.And("I set the Company to \"1\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 45
+#line 44
  testRunner.When("I press Create this computer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 46
+#line 45
  testRunner.Then(string.Format("response message should contain \"{0}\"", expected_Response), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 47
+#line 46
  testRunner.And(string.Format("response code should be \"{0}\"", expected_Code), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 0_Normal_Dates", new string[] {
-                "DatesTesting"}, SourceLine=49)]
+                "DatesTesting"}, SourceLine=48)]
         public virtual void AddANewComputerDatesTesting_0_Normal_Dates()
         {
             this.AddANewComputerDatesTesting("0_Normal_Dates", "Specflow_Normal_Dates", "2015-11-18", "2016-11-18", "Done!", "OK", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 1_Zero_Year", new string[] {
-                "DatesTesting"}, SourceLine=50)]
+                "DatesTesting"}, SourceLine=49)]
         public virtual void AddANewComputerDatesTesting_1_Zero_Year()
         {
             this.AddANewComputerDatesTesting("1_Zero_Year", "Specflow_Zero_Year", "0-1-1", "9999-12-12", "Done!", "OK", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 2_Intro_DateFormat_dd-MM-yyyy", new string[] {
-                "DatesTesting"}, SourceLine=51)]
+                "DatesTesting"}, SourceLine=50)]
         public virtual void AddANewComputerDatesTesting_2_Intro_DateFormat_Dd_MM_Yyyy()
         {
             this.AddANewComputerDatesTesting("2_Intro_DateFormat_dd-MM-yyyy", "Specflow_DateFormat_dd-MM-yyyy", "31-12-2000", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 3_Disc_DateFormat_dd-MM-yyyy", new string[] {
-                "DatesTesting"}, SourceLine=52)]
+                "DatesTesting"}, SourceLine=51)]
         public virtual void AddANewComputerDatesTesting_3_Disc_DateFormat_Dd_MM_Yyyy()
         {
             this.AddANewComputerDatesTesting("3_Disc_DateFormat_dd-MM-yyyy", "Specflow_DateFormat_dd-MM-yyyy", "", "31-12-2000", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 4_Intro_Text_Month", new string[] {
-                "DatesTesting"}, SourceLine=53)]
+                "DatesTesting"}, SourceLine=52)]
         public virtual void AddANewComputerDatesTesting_4_Intro_Text_Month()
         {
             this.AddANewComputerDatesTesting("4_Intro_Text_Month", "Specflow_Text_Month", "2015-Nov-18", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 5_Disc_Intro_Text_Month", new string[] {
-                "DatesTesting"}, SourceLine=54)]
+                "DatesTesting"}, SourceLine=53)]
         public virtual void AddANewComputerDatesTesting_5_Disc_Intro_Text_Month()
         {
             this.AddANewComputerDatesTesting("5_Disc_Intro_Text_Month", "Specflow_Intro_Text_Month", "", "2015-Nov-18", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 6_Intro_Negative_Year", new string[] {
-                "DatesTesting"}, SourceLine=55)]
+                "DatesTesting"}, SourceLine=54)]
         public virtual void AddANewComputerDatesTesting_6_Intro_Negative_Year()
         {
             this.AddANewComputerDatesTesting("6_Intro_Negative_Year", "Specflow_Negative_Year", "-1-11-11", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 7_Disc_Negative_Year", new string[] {
-                "DatesTesting"}, SourceLine=56)]
+                "DatesTesting"}, SourceLine=55)]
         public virtual void AddANewComputerDatesTesting_7_Disc_Negative_Year()
         {
             this.AddANewComputerDatesTesting("7_Disc_Negative_Year", "Specflow_Negative_Year", "", "-1-11-11", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 8_Intro_Wrong_Delimiter", new string[] {
-                "DatesTesting"}, SourceLine=57)]
+                "DatesTesting"}, SourceLine=56)]
         public virtual void AddANewComputerDatesTesting_8_Intro_Wrong_Delimiter()
         {
             this.AddANewComputerDatesTesting("8_Intro_Wrong_Delimiter", "Specflow_Wrong_Delimiter", "2000/1/1", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 9_Disc_Wrong_Delimiter", new string[] {
-                "DatesTesting"}, SourceLine=58)]
+                "DatesTesting"}, SourceLine=57)]
         public virtual void AddANewComputerDatesTesting_9_Disc_Wrong_Delimiter()
         {
             this.AddANewComputerDatesTesting("9_Disc_Wrong_Delimiter", "Specflow_Wrong_Delimiter", "", "2000/1/1", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 10_Intro_Text_Date", new string[] {
-                "DatesTesting"}, SourceLine=59)]
+                "DatesTesting"}, SourceLine=58)]
         public virtual void AddANewComputerDatesTesting_10_Intro_Text_Date()
         {
             this.AddANewComputerDatesTesting("10_Intro_Text_Date", "Specflow_Text_Date", "text", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 11_Intro_Text_Date", new string[] {
-                "DatesTesting"}, SourceLine=60)]
+                "DatesTesting"}, SourceLine=59)]
         public virtual void AddANewComputerDatesTesting_11_Intro_Text_Date()
         {
             this.AddANewComputerDatesTesting("11_Intro_Text_Date", "Specflow_Text_Date", "", "text", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 12_Intro_DateFormat_dd-MM-yyyy", new string[] {
-                "DatesTesting"}, SourceLine=61)]
+                "DatesTesting"}, SourceLine=60)]
         public virtual void AddANewComputerDatesTesting_12_Intro_DateFormat_Dd_MM_Yyyy()
         {
             this.AddANewComputerDatesTesting("12_Intro_DateFormat_dd-MM-yyyy", "Specflow_DateFormat_MM-dd-yyyy", "12-31-2000", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 13_Disc_DateFormat_dd-MM-yyyy", new string[] {
-                "DatesTesting"}, SourceLine=62)]
+                "DatesTesting"}, SourceLine=61)]
         public virtual void AddANewComputerDatesTesting_13_Disc_DateFormat_Dd_MM_Yyyy()
         {
             this.AddANewComputerDatesTesting("13_Disc_DateFormat_dd-MM-yyyy", "Specflow_DateFormat_MM-dd-yyyy", "", "12-31-2000", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 14_Intro_Space_Delimiter", new string[] {
-                "DatesTesting"}, SourceLine=63)]
+                "DatesTesting"}, SourceLine=62)]
         public virtual void AddANewComputerDatesTesting_14_Intro_Space_Delimiter()
         {
             this.AddANewComputerDatesTesting("14_Intro_Space_Delimiter", "Specflow_Space_Delimiter", "2000 1 1", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 15_Disc_Space_Delimiter", new string[] {
-                "DatesTesting"}, SourceLine=64)]
+                "DatesTesting"}, SourceLine=63)]
         public virtual void AddANewComputerDatesTesting_15_Disc_Space_Delimiter()
         {
             this.AddANewComputerDatesTesting("15_Disc_Space_Delimiter", "Specflow_Space_Delimiter", "", "2000 1 1", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 16_Intro_30_Feb", new string[] {
-                "DatesTesting"}, SourceLine=65)]
+                "DatesTesting"}, SourceLine=64)]
         public virtual void AddANewComputerDatesTesting_16_Intro_30_Feb()
         {
             this.AddANewComputerDatesTesting("16_Intro_30_Feb", "Specflow_30_Feb", "2012-2-30", "", "", "400", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add a new computer, dates testing, 16_Disc_30_Feb", new string[] {
-                "DatesTesting"}, SourceLine=66)]
+                "DatesTesting"}, SourceLine=65)]
         public virtual void AddANewComputerDatesTesting_16_Disc_30_Feb()
         {
             this.AddANewComputerDatesTesting("16_Disc_30_Feb", "Specflow_30_Feb", "", "2012-2-30", "", "400", ((string[])(null)));
@@ -330,49 +328,49 @@ this.ScenarioSetup(scenarioInfo);
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add new computer, company field testing", @__tags);
-#line 72
+#line 71
 this.ScenarioSetup(scenarioInfo);
-#line 73
+#line 72
  testRunner.Given("I set the computer name to \"Specflow_CompanyTesting\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 74
+#line 73
  testRunner.And("I set the Introduced date to \"2015-11-18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 75
+#line 74
  testRunner.And("I set the Discontinued date to \"2016-11-18\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 76
+#line 75
  testRunner.And(string.Format("I set the Company to \"{0}\"", company), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 77
+#line 76
  testRunner.When("I press Create this computer", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 78
+#line 77
  testRunner.Then(string.Format("response message should contain \"{0}\"", expected_Response), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 79
+#line 78
  testRunner.And(string.Format("response code should be \"{0}\"", expected_Code), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add new computer, company field testing, 0_Company_0", new string[] {
-                "CompanyTesting"}, SourceLine=81)]
+                "CompanyTesting"}, SourceLine=80)]
         public virtual void AddNewComputerCompanyFieldTesting_0_Company_0()
         {
             this.AddNewComputerCompanyFieldTesting("0_Company_0", "0", "Done!", "OK", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add new computer, company field testing, 1_Negative_Company", new string[] {
-                "CompanyTesting"}, SourceLine=82)]
+                "CompanyTesting"}, SourceLine=81)]
         public virtual void AddNewComputerCompanyFieldTesting_1_Negative_Company()
         {
             this.AddNewComputerCompanyFieldTesting("1_Negative_Company", "-1", "Done!", "OK", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add new computer, company field testing, 2_Company_Code_Not_in_List", new string[] {
-                "CompanyTesting"}, SourceLine=83)]
+                "CompanyTesting"}, SourceLine=82)]
         public virtual void AddNewComputerCompanyFieldTesting_2_Company_Code_Not_In_List()
         {
             this.AddNewComputerCompanyFieldTesting("2_Company_Code_Not_in_List", "9999999", "Done!", "OK", ((string[])(null)));
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add new computer, company field testing, 3_Company_Code_is_Text", new string[] {
-                "CompanyTesting"}, SourceLine=84)]
+                "CompanyTesting"}, SourceLine=83)]
         public virtual void AddNewComputerCompanyFieldTesting_3_Company_Code_Is_Text()
         {
             this.AddNewComputerCompanyFieldTesting("3_Company_Code_is_Text", "text", "", "400", ((string[])(null)));

@@ -1,0 +1,35 @@
+﻿VS filter: testpath:TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer+without+name
+Appdomain Disposed
+Test Suite Dump
+#0: BackBaseTask/Default - 
+#1: Default - 
+#2: BackBaseTask - 
+#3: Add new computer - 
+#4: Add new computer without name - TestAssembly:BackBaseTask/Feature:Add+new+computer/Scenario:Add+new+computer+without+name
+End: Test Suite Dump
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for BackBaseTask, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Olena\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.2.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I set the computer name to ""
+T:done: AddNewComputerSteps.GivenISetTheComputerNameTo("") (0.0s)
+B:And I set the Introduced date to "2015-11-18"
+T:done: AddNewComputerSteps.GivenISetTheIntroducedDateTo("2015-11-18") (0.0s)
+B:And I set the Discontinued date to "2016-11-18"
+T:done: AddNewComputerSteps.GivenISetTheDiscontinuedDateTo("2016-11-18") (0.0s)
+B:And I set the Company to "1"
+T:done: AddNewComputerSteps.GivenISetTheCompanyTo("1") (0.0s)
+B:When I press Create this computer
+T:done: AddNewComputerSteps.WhenIPressCreateThisComputer() (0.5s)
+B:Then response code should be "BadRequest"
+T:done: BaseSteps.ThenResponseCodeShouldBe("BadRequest") (0.0s)
+Test #4 is finished on thread #0 as Succeeded within 0.6344563 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
